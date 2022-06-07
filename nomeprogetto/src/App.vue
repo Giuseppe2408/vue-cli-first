@@ -1,8 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <Title = "La mia prima app con Vue CLI!"/>
+    <Title msg="La mia prima app con vue cli"/>
   </div>
 </template>
 
@@ -12,7 +11,7 @@ import Title from './components/Title.vue'
 export default {
   name: 'App',
   components: {
-    Title
+    Title 
   }
 }
 </script>
